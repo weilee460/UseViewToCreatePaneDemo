@@ -12,6 +12,7 @@
 		2E46AC941CB875A300A32691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E46AC921CB875A300A32691 /* Main.storyboard */; };
 		2E46AC961CB875A300A32691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E46AC951CB875A300A32691 /* Assets.xcassets */; };
 		2E46AC991CB875A300A32691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E46AC971CB875A300A32691 /* LaunchScreen.storyboard */; };
+		2E46ACA11CB8EAC100A32691 /* PaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46ACA01CB8EAC100A32691 /* PaneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E46AC951CB875A300A32691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E46AC981CB875A300A32691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E46AC9A1CB875A300A32691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E46ACA01CB8EAC100A32691 /* PaneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2E46AC8E1CB875A300A32691 /* AppDelegate.swift */,
 				2E46AC901CB875A300A32691 /* ViewController.swift */,
+				2E46ACA01CB8EAC100A32691 /* PaneView.swift */,
 				2E46AC921CB875A300A32691 /* Main.storyboard */,
 				2E46AC951CB875A300A32691 /* Assets.xcassets */,
 				2E46AC971CB875A300A32691 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				2E46AC911CB875A300A32691 /* ViewController.swift in Sources */,
 				2E46AC8F1CB875A300A32691 /* AppDelegate.swift in Sources */,
+				2E46ACA11CB8EAC100A32691 /* PaneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

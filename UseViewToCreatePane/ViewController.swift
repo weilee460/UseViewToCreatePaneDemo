@@ -23,12 +23,12 @@ class ViewController: UIViewController {
     var distanceFromeBottomSide: CGFloat = 20
     
     //保存背景图数据
-    var backgrounds:Array<UIView>!
+    var backgrounds:Array<PaneView>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.backgrounds = Array<UIView>()
+        self.backgrounds = Array<PaneView>()
         //改成主视图背景白色背景
         self.view.backgroundColor = UIColor.whiteColor()
         width = caculateTitleWidth()
@@ -56,9 +56,10 @@ class ViewController: UIViewController {
             y = caculateTitleYLeftUpsideCoordinate()
             for j in 0 ..< dimension
             {
+                //随机2的1~11次方
+                var val: Int = 2<<Int(arc4random_uniform(10))
                 //初始化视图
-                var background = UIView(frame:CGRectMake(x, y, width, width))
-                background.backgroundColor = UIColor.darkGrayColor()
+                var background = PaneView(pos: CGPoint(x: x, y: y), width: width, value: val)
                 self.view.addSubview(background)
                 //将视图保存起来，以备后用
                 backgrounds.append(background)
